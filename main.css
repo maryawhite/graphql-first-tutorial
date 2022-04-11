@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    background-color: #F8E9E9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#page-title {
+    font-size: 3em;
+    margin-top: .6em;
+    margin-bottom: .6em;
+}
+
+#container {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+#countries-list {
+    margin-top: 1em;
+}
+
+.capitalNameClass {
+    color: #D34F73;
+    margin-top: .25em;
+}
+
+.countryNameClass {
+    margin-bottom: .25em;
+}
