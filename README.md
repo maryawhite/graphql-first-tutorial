@@ -8,6 +8,8 @@ The endpoint is https://countries.trevorblades.com/. I used the fetch method and
 
 I didn't use a framework. This is built with vanilla JavaScript, HTML, DOM manipulation, and a small amount of CSS.
 
+Visit the Live Site: https://mwhite-graphql-countries-caps.herokuapp.com/
+
 # How to deploy to Heroku
 
 By default, you can't deploy a vanilla JavaScript site to Heroku, because Heroku doesn't recognize it. Heroku does recognize Node.JS and Express. 
