@@ -26,7 +26,7 @@ queryFetch(`
             }
             }
         `).then(data => {
-    console.log(data.data)
+    // console.log(data.data)
     //loop through the continents and add each one as an option on the dropdown menu
     data.data.continents.forEach(continent => {
         const option = document.createElement('option')
@@ -63,13 +63,12 @@ function getContinentCountries(continentCode) {
         name 
         countries {
           name
-          code
           capital
         }
       }
     }
     `, {code: continentCode }).then(data => {
-        console.log(data.data.continent.countries)
+        // console.log(data.data.continent.countries)
             return data.data.continent.countries
         })
 }
@@ -87,6 +86,7 @@ function queryFetch(query, variables) {
     }).then(response => response.json())
 }
 
+//queries used in graphql
 ///query {
 //   continent (code: "AF") {
 //     countries {
